@@ -1,0 +1,14 @@
+.header{
+    background-color: orangered;
+    padding: 10px;
+}
+
+.form input,
+button {
+  padding: 10px;
+  border: 0;
+  flex: auto;
+  border: 1px solid limegreen;
+  cursor: pointer;
+  border-radius: 5px;
+}
