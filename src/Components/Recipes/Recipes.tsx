@@ -57,8 +57,9 @@ const Recipes = () => {
                 <button onClick={btnClick}>Publish</button>
             </div>
            </div>
+           
            {
-               allRecipes.map((recipeDetail) => <RecipeDetail key={recipeDetail.title} title={recipeDetail.title} ingredients={recipeDetail.ingredients} process={recipeDetail.process}></RecipeDetail>)
+               allRecipes.map(recipeDetail => <RecipeDetail key={recipeDetail.title} title={recipeDetail.title} ingredients={recipeDetail.ingredients} process={recipeDetail.process}></RecipeDetail>)
            }
         
         

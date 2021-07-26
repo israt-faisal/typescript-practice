@@ -8,7 +8,7 @@ interface IProps{
 
 const RecipeDetail = ({title, ingredients,process}: IProps) => {
     return (
-        <div>
+        <div className="card">
             <p><strong>Recipe Name: </strong> {title}</p>
             <p><strong>Ingredients Needed: </strong> {ingredients}</p>
             <p><strong>Cooking Process: </strong> {process}</p>
